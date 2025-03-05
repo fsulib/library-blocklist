@@ -3,6 +3,7 @@
 Setting up a dnsmasq server on a Raspberry Pi is relatively simple. Here’s a step-by-step guide to get you started:
 
 **1. Update Your Raspberry Pi**   
+
 Before beginning, ensure your Raspberry Pi is up-to-date. Run the following commands in the terminal:
 bash
 Copy
@@ -12,12 +13,14 @@ Copy
 **sudo reboot**
 
 **2. Install dnsmasq**
+
 Install dnsmasq using the following command:
 bash
 Copy
 **sudo apt install dnsmasq**
 
 **3. Backup Default Configuration**
+
 Before modifying the configuration, it's always a good idea to back up the original file:
 bash
 Copy
