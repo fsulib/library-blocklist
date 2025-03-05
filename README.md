@@ -103,8 +103,11 @@ Copy
 **10. (Optional) Set Up Additional Features**
  
 DNS Caching: dnsmasq caches DNS queries, so requests should resolve faster.
+
 • DNS for Local Devices: You can configure dnsmasq to resolve local device names, making it easier to connect to devices without needing to remember IP addresses.
+
 • Advanced DHCP Configuration: You can customize DHCP options such as DNS servers, gateway, etc., using **dhcp-option** in the **dnsmasq.conf file.**
+
 Conclusion
 Once these steps are completed, your Raspberry Pi will act as a DNS and DHCP server. You can further customize it by adjusting the settings **in /etc/dnsmasq.conf** based on your network requirements.
 
